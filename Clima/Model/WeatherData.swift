@@ -39,6 +39,7 @@ struct Sys: Decodable  {
 struct Weather: Decodable  {
     let id: Int
     let main: String
+    let description: String?
     let weatherDescription, icon: String?
 }
 
